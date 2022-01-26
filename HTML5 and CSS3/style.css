@@ -19,7 +19,7 @@ nav li {
     display: inline;
     margin: 0 0 0 15px;
 
-}
+}class="input-padrao"
 
 nav a {
     text-transform: uppercase;
@@ -101,14 +101,18 @@ form {
     margin: 40px 0;
 
 }
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
-form input {
+.input-padrao form input, form textarea {
     display: block;
     margin: 0 0 20px;
     padding: 10px 20px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
